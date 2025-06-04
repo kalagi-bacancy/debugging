@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'error-handling';
   user = {};
-  employees: any;
+  employees: string[] = [];
 
-  addEmp(): void{
+  addEmp(): void {
     this.employees.push('employee')
   }
 
